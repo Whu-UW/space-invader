@@ -160,8 +160,10 @@ MonoBehaviour:
   rows: 5
   columns: 11
   speed:
+    serializedVersion: 2
     m_Curve:
-    - time: 0
+    - serializedVersion: 3
+      time: 0
       value: 1
       inSlope: 0
       outSlope: 0
@@ -169,7 +171,8 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0
-    - time: 1
+    - serializedVersion: 3
+      time: 1
       value: 8
       inSlope: 15.362854
       outSlope: 15.362854
@@ -182,8 +185,6 @@ MonoBehaviour:
     m_RotationOrder: 4
   missilePrefab: {fileID: 1455898082273934399, guid: 962cad20eac88df4d9bb9ac32195bd9e, type: 3}
   missileAttackRate: 1
-  <amountKilled>k__BackingField: 0
-  _direction: {x: 1, y: 0, z: 0}
 --- !u!4 &402243315
 Transform:
   m_ObjectHideFlags: 0
@@ -312,7 +313,7 @@ SpriteRenderer:
   m_Size: {x: 2.625, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &469408888
@@ -547,7 +548,7 @@ SpriteRenderer:
   m_Size: {x: 2.625, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &550628791
@@ -690,7 +691,7 @@ SpriteRenderer:
   m_Size: {x: 1.625, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &913929033
@@ -722,7 +723,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserPrefab: {fileID: -722014545448847328, guid: 4a6491ab20c87f042b1f6775508ea35c, type: 3}
   speed: 5
-  _laserActive: 0
 --- !u!1 &1547579918
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,7 +836,7 @@ SpriteRenderer:
   m_Size: {x: 2.625, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1547579921
@@ -1133,7 +1133,7 @@ SpriteRenderer:
   m_Size: {x: 2.625, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1955938061
@@ -1275,7 +1275,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2008646961
